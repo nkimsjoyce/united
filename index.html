@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+      <!--=============== REMIXICONS ===============-->
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Responsive dropdown menu - Bedimcode</title>
+   </head>
+   <body>
+      <!--=============== HEADER ===============-->
+      <header class="header">
+         <nav class="nav container">
+            <div class="nav__data">
+               <a href="#" class="nav__logo">
+                  <i class="ri-planet-line"></i> Company
+               </a>
+               
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line nav__burger"></i>
+                  <i class="ri-close-line nav__close"></i>
+               </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li><a href="#" class="nav__link">Home</a></li>
+
+                  <li><a href="#" class="nav__link">Company</a></li>
+
+                  <!--=============== DROPDOWN 1 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Analytics <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-pie-chart-line"></i> Overview
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-arrow-up-down-line"></i> Transactions
+                           </a>
+                        </li>
+
+                        <!--=============== DROPDOWN SUBMENU ===============-->
+                        <li class="dropdown__subitem">
+                           <div class="dropdown__link">
+                              <i class="ri-bar-chart-line"></i> Reports <i class="ri-add-line dropdown__add"></i>
+                           </div>
+
+                           <ul class="dropdown__submenu">
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-file-list-line"></i> Documents
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-cash-line"></i> Payments
+                                 </a>
+                              </li>
+      
+                              <li>
+                                 <a href="#" class="dropdown__sublink">
+                                    <i class="ri-refund-2-line"></i> Refunds
+                                 </a>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </li>
+                  
+                  <li><a href="#" class="nav__link">Products</a></li>
+
+                  <!--=============== DROPDOWN 2 ===============-->
+                  <li class="dropdown__item">
+                     <div class="nav__link">
+                        Users <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                     </div>
+
+                     <ul class="dropdown__menu">
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-user-line"></i> Profiles
+                           </a>                          
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-lock-line"></i> Accounts
+                           </a>
+                        </li>
+
+                        <li>
+                           <a href="#" class="dropdown__link">
+                              <i class="ri-message-3-line"></i> Messages
+                           </a>
+                        </li>
+                     </ul>
+                  </li>
+
+                  <li><a href="#" class="nav__link">Contact</a></li>
+               </ul>
+            </div>
+         </nav>
+      </header>
+       <section class="hero-section">
+            <div class="hero-content">
+               <h1>Welcome to United Website</h1>
+               <p>We are dedicated to providing the best services and products for our customers.</p>
+               <a href="#" class="hero-button">Visit Us To Know More</a>
+            </div>
+         </section>
+
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+
+      <section class="service">
+         <h1> Our Services</h1>
+         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos et expedita soluta cumque nesciunt possimus sint quis, provident dolorem eos consectetur ratione autem ad dolore praesentium vitae assumenda harum laudantium.</p>
+
+         <div class="row">
+            <div class="service-col">
+                <h3>Service 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi maxime aspernatur voluptates reprehenderit assumenda ex ab eligendi sequi dolorem animi sunt placeat architecto cumque veniam accusamus a, amet ipsum!</p> 
+            </div>
+            <div class="service-col">
+                <h3>Service 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi maxime aspernatur voluptates reprehenderit assumenda ex ab eligendi sequi dolorem animi sunt placeat architecto cumque veniam accusamus a, amet ipsum!</p>
+            </div>
+            <div class="service-col">
+                <h3>Service 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo excepturi maxime aspernatur voluptates reprehenderit assumenda ex ab eligendi sequi dolorem animi sunt placeat architecto cumque veniam accusamus a, amet ipsum!</p>  
+            </div>
+         </div>
+
+ </section>
+    
+ <!------Products section------>
+
+  <section class="Products">
+     
+       <h1>Discover our Products</h1>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam autem, perspiciatis harum aut molestiae vero! Odio eum, sunt provident laudantium ex dicta maiores ad quia corrupti commodi earum accusamus perferendis.</p>
+       
+       <div class="row-p">
+            <div class="products-col">
+                <img src="images/w.jpg" alt="">
+                <div class="layer">
+                    <h3>WATCHES & JEWELLERY</h3>
+                </div>
+            </div>
+            <div class="products-col">
+                <img src="images/h.jpg" alt="">
+                <div class="layer">
+                    <h3>HOME & LIVING</h3>
+                </div>
+            </div>
+            <div class="products-col">
+                <img src="images/ho.jpg" alt="">
+                <div class="layer">
+                    <h3>HOLIDAYS</h3>
+                </div>
+            </div>
+            <div class="products-col">
+                <img src="images/he.jpg" alt="">
+                <div class="layer">
+                    <h3>HEALTH</h3>
+                </div>
+            </div>
+            <div class="products-col">
+                <img src="images/p.png" alt="">
+                <div class="layer">
+                    <h3>PERSONAL CARE</h3>
+                </div>
+            </div>
+            <div class="products-col">
+                <img src="images/well.jpg" alt="">
+                <div class="layer">
+                    <h3>WELLNESS</h3>
+                </div>
+            </div>
+            <div class="products-col">
+                <img src="images/edc.jpg" alt="">
+                <div class="layer">
+                    <h3>EDUCATION</h3>
+                </div>
+            </div>
+            <div class="products-col">
+                <img src="images/te.jpg" alt="">
+                <div class="layer">
+                    <h3>TECHNOLOGY</h3>
+                </div>
+            </div>
+
+
+
+            </div>
+       </div>
+  </section>
+
+  <!---Blog section----->
+ <section class="blog-section">
+  <div class="section-content">
+    <div class="title">
+      <h2>Blog & news</h2>
+      <p>Découvrez nos derniers articles et actualités liés à nos services et notre technologie.</p>
+    </div>
+
+    <div class="carousel-container">
+      <button class="prev">&#10094;</button>
+      <div class="carousel-track">
+        <div class="card">
+          <div class="posted-date"><p>Posted on: 07/11/2025</p></div>
+          <div class="image-section">
+            <img src="images/blog.jpeg" alt="Blog image" />
+          </div>
+          <div class="article">
+            <h4>Title one</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="blog-view">
+            <a href="#" class="button">Read More</a>
+          </div>
+        </div>
+
+        <!-- Duplicate cards -->
+         <div class="card">
+          <div class="posted-date"><p>Posted on: 07/11/2025</p></div>
+          <div class="image-section">
+            <img src="images/blo" alt="Blog image" />
+          </div>
+          <div class="article">
+            <h4>Title one</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="blog-view">
+            <a href="#" class="button">Read More</a>
+          </div>
+        </div>
+         <div class="card">
+          <div class="posted-date"><p>Posted on: 07/11/2025</p></div>
+          <div class="image-section">
+            <img src="images/blog.jpeg" alt="Blog image" />
+          </div>
+          <div class="article">
+            <h4>Title one</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="blog-view">
+            <a href="#" class="button">Read More</a>
+          </div>
+        </div>
+         <div class="card">
+          <div class="posted-date"><p>Posted on: 07/11/2025</p></div>
+          <div class="image-section">
+            <img src="images/blog.jpeg" alt="Blog image" />
+          </div>
+          <div class="article">
+            <h4>Title one</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="blog-view">
+            <a href="#" class="button">Read More</a>
+          </div>
+        </div>
+         <div class="card">
+          <div class="posted-date"><p>Posted on: 07/11/2025</p></div>
+          <div class="image-section">
+            <img src="images/blog.jpeg" alt="Blog image" />
+          </div>
+          <div class="article">
+            <h4>Title one</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <div class="blog-view">
+            <a href="#" class="button">Read More</a>
+          </div>
+        </div>
+      </div>
+      <button class="next">&#10095;</button>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---------javascript scroll--------->
+
+<script>
+    const track = document.querySelector('.carousel-track');
+    const cards = document.querySelectorAll('.carousel-track .card');
+    const nextBtn = document.querySelector('.next');
+    const prevBtn = document.querySelector('.prev');
+
+    let currentIndex = 0;
+    let cardCount = cards.length;
+
+    function getCardsPerSlide() {
+        if (window.innerWidth <= 768) return 1;
+        if (window.innerWidth <= 1024) return 2;
+        return 3;
+    }
+
+    function updateCarousel() {
+        const cardsPerSlide = getCardsPerSlide();
+        const cardWidth = cards[0].offsetWidth + 20; // 20px = approx. margin
+        const offset = -(cardWidth * cardsPerSlide * currentIndex);
+        track.style.transform = `translateX(${offset}px)`;
+    }
+
+    nextBtn.addEventListener('click', () => {
+        const cardsPerSlide = getCardsPerSlide();
+        const maxIndex = Math.ceil(cardCount / cardsPerSlide) - 1;
+        currentIndex = currentIndex >= maxIndex ? 0 : currentIndex + 1;
+        updateCarousel();
+    });
+
+    prevBtn.addEventListener('click', () => {
+        const cardsPerSlide = getCardsPerSlide();
+        const maxIndex = Math.ceil(cardCount / cardsPerSlide) - 1;
+        currentIndex = currentIndex <= 0 ? maxIndex : currentIndex - 1;
+        updateCarousel();
+    });
+
+    // Auto-slide every 5 seconds
+    setInterval(() => {
+        nextBtn.click();
+    }, 5000);
+
+    // Recalculate on window resize
+    window.addEventListener('resize', updateCarousel);
+
+    // Initial position
+    window.addEventListener('load', updateCarousel);
+</script>
+
+<!---------javascript menu scroll--------->
+
+<script>
+    
+ var navLinks = document.getElementById("navLinks");
+  function showMenu() {
+    navLinks.style.right = "0";
+  }
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+
+
+  // Scroll effect
+  const nav = document.querySelector("nav");
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 50) {
+      nav.style.backgroundColor = "rgba(50, 85, 228, 0.7)";
+      nav.style.padding = "6px 40px";
+    } else {
+      nav.style.backgroundColor = "transparent";
+      nav.style.padding = "20px 40px";
+    }
+  });
+</script>
+
+<!---------TESTIMONY--------->
+
+<section class="testimony">
+
+   <div class="container-T">
+	
+	<div class="contents-test">
+		
+		<section class="headers"><h1>Testimonial</h1></section>
+
+		<section class="testRow">
+			
+			<div class="testItem active">
+				<img src="images/model-1.jpg">
+				<h3>Jane Doe</h3>
+				<h4>San Francisco, USA</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+			<div class="testItem">
+				<img src="images/model-2.jpg">
+				<h3>Jane Doe</h3>
+				<h4>San Francisco, USA</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+			<div class="testItem">
+				<img src="images/model-3.jpg">
+				<h3>Jane Doe</h3>
+				<h4>San Francisco, USA</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+			<div class="testItem">
+				<img src="images/model-4.jpg">
+				<h3>Jane Doe</h3>
+				<h4>San Francisco, USA</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+			<div class="testItem">
+				<img src="images/model-5.jpg">
+				<h3>Jane Doe</h3>
+				<h4>San Francisco, USA</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+			</div>
+
+		</section>
+
+		<section class="indicators">
+			<div class="dot active" attr='0' onclick="switchTest(this)"></div>
+			<div class="dot" attr='1' onclick="switchTest(this)"></div>
+			<div class="dot" attr='2' onclick="switchTest(this)"></div>
+			<div class="dot" attr='3' onclick="switchTest(this)"></div>
+			<div class="dot" attr='4' onclick="switchTest(this)"></div>
+		</section>
+
+	</div>
+</div>
+
+<script>
+	
+	// Access the testimonials
+	let testSlide = document.querySelectorAll('.testItem');
+	// Access the indicators
+	let dots = document.querySelectorAll('.dot');
+
+	var counter = 0;
+
+	// Add click event to the indicators
+	function switchTest(currentTest){
+		currentTest.classList.add('active');
+		var testId = currentTest.getAttribute('attr');
+		if(testId > counter){
+			testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+			counter = testId;
+			testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+		}
+		else if(testId == counter){return;}
+		else{
+			testSlide[counter].style.animation = 'prev1 0.5s ease-in forwards';
+			counter = testId;
+			testSlide[counter].style.animation = 'prev2 0.5s ease-in forwards';
+		}
+		indicators();
+	}
+
+	// Add and remove active class from the indicators
+	function indicators(){
+		for(i = 0; i < dots.length; i++){
+			dots[i].className = dots[i].className.replace(' active', '');
+		}
+		dots[counter].className += ' active';
+	}
+
+	// Code for auto sliding
+	function slideNext(){
+		testSlide[counter].style.animation = 'next1 0.5s ease-in forwards';
+		if(counter >= testSlide.length - 1){
+			counter = 0;
+		}
+		else{
+			counter++;
+		}
+		testSlide[counter].style.animation = 'next2 0.5s ease-in forwards';
+		indicators();
+	}
+	function autoSliding(){
+		deleteInterval = setInterval(timer, 2000);
+		function timer(){
+			slideNext();
+			indicators();
+		}
+	}
+	autoSliding();
+
+	// Stop auto sliding when mouse is over the indicators
+	const container = document.querySelector('.indicators');
+	container.addEventListener('mouseover', pause);
+	function pause(){
+		clearInterval(deleteInterval);
+	}
+
+	// Resume sliding when mouse is out of the indicators
+	container.addEventListener('mouseout', autoSliding);
+
+</script>
+
+</section>
+
+<!---------CONTACT US--------->
+
+  <section>
+
+     <div class="contact-form">
+        <h1>Contact Us</h1>
+        <div class="container-c">
+            <div class="main">
+                <div class="content">
+                    <h2>Contact Us</h2>
+                    <form action="#" method="post">
+                        <input type="text" name="name" placeholder="Enter Your Name">
+                      
+                        <input type="email" name="name" placeholder="Enter Your Email">
+                        <textarea name="message" placeholder="Your Message"></textarea>                   
+             <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+                <div class="form-img">
+                    <img src="images/logo.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div> 
+
+  </section>
+
+<!---------FOOTER--------->
+
+ <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+
+   </body>
+</html>
